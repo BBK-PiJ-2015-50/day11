@@ -5,7 +5,7 @@ public class InitialsFromFullName {
 			initFromName.launch();
 	}
 		public void launch() {
-			Initials person = new Initials();		
+			Person person = new Person();		
 			System.out.println("Enter fullName");
 			String name = System.console().readLine();
 			String initials = person.getInitials(name);
